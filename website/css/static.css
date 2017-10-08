@@ -1,0 +1,48 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+body {
+	width: 800px;
+	margin: auto;
+	background-color: #fff;
+	text-align: center;
+	height: 900px;
+	color: #fff;
+}
+header {
+	border: 2px solid green;
+	background-color: green;
+	width: 800px;
+	height: 30px
+}
+nav {
+	border: 2px solid red;
+	background-color: red;
+	height: 20px;
+	width: 800px;
+}
+nav ul li {
+	display: inline-block;
+}
+article {
+	background-color: blueviolet;
+	width: 528px;
+	height: 200px;
+}
+section {
+	border: 2px solid pink;
+	background-color: pink;
+	margin-top: 10px;
+	height: 70px;
+}
+aside {
+	width: 264px;
+	background-color: orange;
+	height: 200px;
+}
+footer {
+	background-color: blue;
+	width: 800px;
+	height: 20px;
+}

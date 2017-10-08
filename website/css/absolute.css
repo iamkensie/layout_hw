@@ -1,0 +1,64 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body {
+	width: 800px;
+	margin: auto;
+	background-color: #fff;
+	text-align: center;
+	height: 900px;
+	color: #000;
+}
+header {
+	border: 2px solid green;
+	background-color: green;
+	width: 796px;
+	height: 30px;
+	margin-top: 10px;
+	position: absolute;
+}
+nav {
+	border: 2px solid red;
+	background-color: red;
+	width: 796px;
+	position: absolute;
+	margin-top: 44px;
+}
+nav ul li {
+	display: inline-block;
+}
+.article-aside {
+	width: 800px;
+	height: 270px;
+	margin-top: 43px;
+	position: absolute;
+}
+article {
+	background-color: blueviolet;
+	width: 400px;
+	height: 270px;
+	margin-top: 55px;
+	position: absolute;
+}
+section {
+	border: 2px solid pink;
+	background-color: pink;
+	margin-top: 10px;
+	height: 100px;
+}
+aside {
+	width: 400px;
+	background-color: orange;
+	height: 270px;
+	margin-top: 55px;
+	float: right;
+	margin-left: 400px;
+	position: absolute;
+}
+footer {
+	background-color: blue;
+	width: 800px;
+	height: 20px;
+	position: absolute;
+	margin-top: 368px;
+}
